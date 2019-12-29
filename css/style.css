@@ -1,0 +1,99 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+html,body{
+    height: 100%;
+    font-size: 16px;
+    background: hsl(204, 43%, 93%);
+}
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px rgba(152,166,189,0.1) ;
+}
+/* Intro */
+#intro{
+    margin-top: 150px;
+    padding: 50px;
+}
+#intro h2{
+    color:hsl(179, 62%, 43%);
+    padding-bottom: 20px;
+}
+#intro h3{
+    color: hsl(71, 73%, 54%);
+    padding-bottom: 10px;
+}
+#intro p{
+    color: hsl(218, 22%, 67%);
+    padding-bottom:5px;
+}
+/* info */
+#info{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* price */
+.price{
+    background: hsl(179, 62%, 43%);
+    color: #fff;
+    padding: 50px;
+    height: auto;
+    flex: 1 1 300px;
+}
+.price h3, .additional h3{
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.price p{
+    padding-bottom: 20px;
+}
+.price span{
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    padding-right: 5px;
+}
+.price-btn{
+    padding: 10px 50px;
+    background: hsl(71,73%,54%);
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    max-width: 250px;
+}
+.price-btn:hover{
+    background: rgb(128, 155, 11);
+}
+.price-btn a{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+/* additional */
+.additional {
+    background: hsl(179, 47%, 52%);
+    color: #fff;
+    padding: 50px;
+    height: auto;
+    flex: 1 1 300px;
+}
+.additional ul li{
+    list-style: none;
+}
+/* footer */
+.attribution{ 
+    font-size: 11px; 
+    text-align: center;
+    padding-bottom: 20px;
+}
+.attribution a{ 
+    color: hsl(228, 45%, 44%); 
+}
