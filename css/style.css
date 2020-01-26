@@ -102,3 +102,11 @@ html,body{
 .attribution a{ 
     color: hsl(228, 45%, 44%); 
 }
+@media(max-width:616px){
+    .price{
+        border-radius: 0;
+    } 
+    .additional {
+        border-radius: 0 0 10px 10px;
+    }
+}
